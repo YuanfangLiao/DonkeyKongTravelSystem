@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-6-9, 19:55:16
+    Author     : liao
+*/
+
+.strategyMe{
+    border-bottom: 5px solid #00ADFD;
+    color: white;
+}
+#hotelTitle{
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+#hotelTitle h1{
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    text-shadow: 0.05em 0.05em 0.025em #333;
+}
+#selectCity{
+    margin-top: 50px;
+}
+#selectCity a:hover{ 
+    color: #FF7F50;
+}
+#hotelInfo{
+    width: 90%;
+    height: 700px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.hotelInfoDiv{
+    margin: 5px auto;
+    padding: 10px;
+    width: 95%;
+    height: 250px;
+    margin-top: 20px;
+    border: 1px solid #333;
+    background-color: rgba(135 ,206,235,0.7);
+    border-radius: 20px;
+}
+.hotelTitleImg{
+    width: 200px;
+    border-radius: 5px;
+}
+.hotelInfoDiv button {
+    font-family: "arial black";
+    margin-top: 50px;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #FF7F50;
+    font-size: 18px;
+    color: white;
+    box-shadow: 2px 2px 1.5px dimgray;
+}
+
+.hotelInfoDiv button:hover {
+    background-color: #ff9900;
+}
+
+.hotelInfoDiv button:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    box-shadow: none;
+}
+#updateButton{
+    font-family: "arial black";
+    margin-top: 50px;
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #FF7F50;
+    font-size: 13px;
+    color: white;
+    box-shadow: 2px 2px 1.5px dimgray;
+}
+#updateButton:hover {
+    background-color: #ff9900;
+}
+
+#updateButton:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    box-shadow: none;
+}

@@ -1,0 +1,180 @@
+﻿/*去边距*/
+body{
+    margin: 0 0;
+    padding: 0 0;
+    background-color: white;
+}
+
+/*顶部Logo div*/
+.header{
+    margin-top: -23px;
+    width: 99.9%;
+    height: 100px;
+    text-align: right;
+    border:solid 1px gainsboro;
+    background-color: white;
+
+}
+.header h1{
+    padding-top: 20px;
+    margin-right: 30px;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    text-shadow: 0.05em 0.05em 0.025em #333;
+    font-weight: bold;
+}
+/*logo图片*/
+#logo{
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+/*顶部注销
+.top_button{
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+    margin-right: 10px;
+    color: black;
+    border: 0;
+    box-shadow: 0 0 5px gray;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+}
+.top_button:hover{
+
+    color: white;
+    background-color: gray;
+
+}
+.top_button:active{
+   
+    top: 3px;
+    left: 3px;
+}*/
+
+.header_logout{
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 0px;
+    display: inline-block;
+}
+
+#mainDiv{
+    border:1px solid gainsboro;
+    width: 100%; 
+    background-color: rgba(193,255,193,0.2);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#mainTable{
+    width: 90%;
+    height: 800px;
+    margin: 0px auto;
+    margin-top: 5px;
+}
+#leftTable{
+    width: 90%;
+}
+#rightTable{
+    width: 280px;
+    text-align: left;
+
+}
+/*侧导航栏*/
+.rightmenu{
+    width: 100%;
+    height: 800px;
+    padding-top: 0px;
+    background-color: rgba(193,255,193,0);
+    text-align: center;
+}
+/*导航栏功能块*/
+.menu_function{
+    width:100%;
+    display: inline-block;
+    height:90px;
+    margin: 0 auto;
+    margin-top: 0px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 2px 2px 2px darkgray;
+    text-align: center;
+    background: linear-gradient(to top left,#C5464A,#FFB90F );
+    border-bottom: 0.5px solid burlywood;
+
+}
+.menu_function:hover{
+    background: linear-gradient(to top left,#C5464A,#FFEC8B );
+}
+.menu_function1{
+    width:100%;
+    display: inline-block;
+    height:90px;
+    margin: 0 auto;
+    margin-top: 0px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 2px 2px 2px darkgray;
+    text-align: center;
+    background: linear-gradient(to top left,#666666,#cccccc );
+    border-bottom: 0.5px solid burlywood;
+}
+.menu_function1:hover{
+    background: linear-gradient(to top left,#333333,#cccccc );
+}
+
+
+/*功能块字体css*/
+.menu_function p{
+    margin: auto;
+    color:  white;
+    font-size: 17px;
+    padding-top: 20px;
+}
+.menu_function1 p{
+    margin: auto;
+    color:  white;
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+/*页面底部*/
+.footer{
+    width: 99.9%;
+    height: 50px;
+    margin-top: 30px;
+    text-align:center;
+}
+.footer p{
+    margin: 0 auto;
+    color: gray;
+}
+
+
+/*主要界面*/
+.main_interface{
+    height: 800px;
+    width: 100%;
+    border: 1px solid gainsboro;
+    background-color: #f9f9f9;
+    padding: 50px;
+}
+
+/*导航到Home时的div css*/
+.nav_main_interface{
+    width: 100%;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+
+.nav_main_interface h1{
+    font-size: 50px;
+}
+

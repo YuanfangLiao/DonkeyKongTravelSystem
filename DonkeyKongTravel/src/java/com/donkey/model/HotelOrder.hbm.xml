@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.org/dtd//hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.donkey.model.HotelOrder" table="hotel_order">
+        <id name="hotel_order_id" type="integer">
+            <column name="hotel_order_id"/>
+            <generator class="native"/>
+        </id>
+        <property name="user_id" type="string">
+            <column name="user_id"/>
+        </property>
+        <property name="hotel_id" type="integer">
+            <column name="hotel_id"/>
+        </property>
+        <property name="order_date" type="date">
+            <column name="order_date"/>
+        </property>
+    </class> 
+</hibernate-mapping>

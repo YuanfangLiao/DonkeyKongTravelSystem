@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.org/dtd//hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.donkey.model.Groups" table="group_travel">
+        <id name="group_travel_id" type="integer">
+            <column name="group_travel_id"/>
+            <generator class="native"/>
+        </id>
+        <property name="title" type="string">
+            <column name="title"/>
+        </property>
+        <property name="att_id" type="integer">
+            <column name="att_id"/>
+        </property>
+        <property name="user_id" type="string">
+            <column name="user_id"/>    
+        </property>
+        <property name="hotel_id" type="integer">
+            <column name="hotel_id"/>
+        </property>
+        <property name="begin_date" type="date">
+            <column name="begin_date"/>
+        </property>
+        <property name="end_date" type="date">
+            <column name="end_date"/>
+        </property>
+        <property name="fee" type="integer">
+            <column name="fee"/>
+        </property>
+        <property name="num_people" type="integer">
+            <column name="num_people"/>
+        </property>
+        <property name="trip_mode" type="string">
+            <column name="trip_mode"/>
+        </property>
+        <property name="isValid" type="string">
+            <column name="isValid"/>
+        </property>
+    </class> 
+</hibernate-mapping>
